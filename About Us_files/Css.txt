@@ -1,0 +1,101 @@
+nav
+{
+   background-color: rgba(0,0,0,.7);
+   
+    display:flex;
+    position:fixed;
+    width:100%;
+    top: 0;
+    left: 0;
+    z-index:10;
+    padding: 35px 10px 20px;
+    justify-content: space-around;
+    color:purple;
+}
+a
+{
+    color:white;
+    font-weight:bold;
+    text-decoration:none;
+    font-size:20px;
+}
+#sideImg
+{
+    left: 20;
+    width:225px;
+    border:3px solid purple;
+    margin-left: 50px;
+}
+header
+{
+    background-image:url('camels-facebook-cover1.jpg');
+    background-size:cover;
+    align-items:center;
+    min-height: 65vh;    
+}
+h1,h2,h3
+{
+    position:relative;
+    top:100px;
+    text-align: center;
+    color:white;
+    margin:20px;
+    text-shadow: 2px 2px #000;
+}
+h1
+{
+font-size:100px;
+}
+h2
+{
+font-size:40px;
+}
+h3
+{
+font-size:30px;
+}
+#title
+{
+    text-shadow:none;
+    font-size:50px;
+    color: purple;
+    margin-bottom:30px;    
+}
+section
+{
+    margin-top:0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.writings
+{
+    font-family='Raleway', sans-serif;
+    line-height:1.5;
+    padding:100px 100px 100px 20px;
+    max-width:800px;
+    font-size:20px;
+}
+hr
+{
+    width:400px;
+    color: purple;
+    height: 2px;
+    background-color:purple;
+    border-radius:20px;
+}
+.mail
+{
+    font-family:'Raleway', sans-serif;
+    font-weight:bold;
+    display: block;
+    text-align: center;
+    margin: 50px;
+    font-size:20px;
+}
+.subtitle
+{
+    color:purple;
+    text-shadow:none;
+    text-align:center;
+}
